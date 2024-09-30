@@ -1,10 +1,10 @@
-let rollNumber = 20;
-// console.log(rollNumber);
+let rollNumber1 = 20;
+console.log(rollNumber1);
 
-rollNumber = 21; // we can reassign the value in the variable
-// console.log(rollNumber);
+rollNumber1 = 21; // we can reassign the value in the variable
+console.log(rollNumber1);
 
-// let rollNumber = 20; // We can not redeclare variable
+// let rollNumber1 = 20; // We can not redeclare variable
 
 // Operators
 /*
@@ -42,3 +42,54 @@ let num1 = 19;
 let num2 = 7;
 
 console.log(num1 % num2);
+
+// 6. Power  //
+let cuboidOfNumber = 4;
+console.log(cuboidOfNumber ** 2);
+
+// Increament, Decrement and Operator //
+let a = 10;
+console.log(a);
+console.log(a++);
+console.log(a--);
+console.log(a);
+console.log(++a);
+console.log(a);
+console.log(--a);
+console.log(a);
+
+// Assignment Operator  //
+
+let numbers1 = 10;
+console.log(numbers1);
+
+numbers1 += 3;
+console.log(`Here assigned number is ${numbers1}`);
+
+// Comparision operators //
+/* > 
+< 
+>=
+<=
+==
+!=
+===
+!==
+*/
+
+console.log(10 > 9);
+console.log(10 < 9);
+console.log(10 >= 9);
+console.log(10 <= 9);
+console.log(10 == 9);
+console.log(10 != 9);
+console.log(10 === 9);
+console.log(10 !== 9);
+console.log(
+  `Here is loose strict typ of 10 == "10" will be: ${
+    10 == "10"
+  } because == operator check only value and === operator check value and type both`
+);
+console.log(10 === 10);
+console.log(`Here strict type 10 === "10" is: ${10 === "10"}`);
+console.log(10 === "Hello");
