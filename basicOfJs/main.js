@@ -93,3 +93,5 @@ console.log(
 console.log(10 === 10);
 console.log(`Here strict type 10 === "10" is: ${10 === "10"}`);
 console.log(10 === "Hello");
+
+// Logical Operator  //
