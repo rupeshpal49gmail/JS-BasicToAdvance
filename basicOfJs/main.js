@@ -103,5 +103,13 @@ console.log(status1);
 let result = true && false && true;
 console.log(`The output is ${result}`);
 
-let res2 = false || 7 || 10 | 18;
+let res2 = false || 7 || 10 || 18;
 console.log(res2);
+
+let res3 = true && false;
+console.log(res3);
+
+let res4 = true && false && true;
+console.log(res4);
+
+let res5 = true || false || true;
