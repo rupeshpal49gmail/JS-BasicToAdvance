@@ -90,8 +90,18 @@ console.log(
     10 == "10"
   } because == operator check only value and === operator check value and type both`
 );
-console.log(10 === 10);
-console.log(`Here strict type 10 === "10" is: ${10 === "10"}`);
-console.log(10 === "Hello");
+// s
 
 // Logical Operator  //
+// 1. Truthy
+// 2.Falsy
+
+let age = 20;
+let status1 = age > 18 ? "I can vote" : "I can not vote";
+console.log(status1);
+
+let result = true && false && true;
+console.log(`The output is ${result}`);
+
+let res2 = false || 7 || 10 | 18;
+console.log(res2);
