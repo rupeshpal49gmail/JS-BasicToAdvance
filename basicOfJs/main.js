@@ -184,6 +184,11 @@ let res5 = true || false || true;
 // Loops & Strings
 
 let evenNumber;
-for (evenNumber = 1; evenNumber <= 10; evenNumber++) {
+for (evenNumber = 1; evenNumber < 6; evenNumber++) {
+  console.log(evenNumber);
+}
+
+// reverse counting //
+for (evenNumber = 5; evenNumber >= 1; evenNumber--) {
   console.log(evenNumber);
 }
