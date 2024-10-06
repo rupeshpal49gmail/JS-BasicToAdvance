@@ -165,8 +165,8 @@ let res5 = true || false || true;
 
 // By traditional method //
 
-let numValue = 2;
-let outputValue;
+// let numValue = 2;
+// let outputValue;
 // if (numValue % 2 === 0) {
 //   outputValue = "Even";
 // } else if (numValue % 2 === 1) {
@@ -178,5 +178,12 @@ let outputValue;
 // console.log(outputValue);
 
 // By Ternary method //
-result = numValue % 2 === 0 ? "Even" : "Odd";
-console.log(result);
+// result = numValue % 2 === 0 ? "Even" : "Odd";
+// console.log(result);
+
+// Loops & Strings
+
+let evenNumber;
+for (evenNumber = 1; evenNumber <= 10; evenNumber++) {
+  console.log(evenNumber);
+}
