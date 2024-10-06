@@ -122,26 +122,41 @@ let res5 = true || false || true;
 
 // Conditionals //
 
-let studentsAge = 10;
+// let studentsAge = 10;
 // 1. if statement //
-if (studentsAge >= 18) {
-  console.log("Students can participate in election");
-}
+// if (studentsAge >= 18) {
+//   console.log("Students can participate in election");
+// }
 
 // 2. if else statement //
-if (studentsAge >= 20) {
-  console.log("He is eligible for participate in stunt mania training");
-} else {
-  console.log(
-    "He needs to take certificate from RTO to get eligibility critera"
-  );
-}
+// if (studentsAge >= 20) {
+//   console.log("He is eligible for participate in stunt mania training");
+// } else {
+//   console.log(
+//     "He needs to take certificate from RTO to get eligibility critera"
+//   );
+// }
 
 // 3 if else if statement //
-if (studentsAge >= 30) {
-  console.log("RTO certificate and stunt mania cetificate both are mandatory");
-} else if (studentsAge >= 35) {
-  console.log("He must have professional certificae");
-} else {
-  console.log("He must have to pass all the criteria");
+// if (studentsAge >= 30) {
+//   console.log("RTO certificate and stunt mania cetificate both are mandatory");
+// } else if (studentsAge >= 35) {
+//   console.log("He must have professional certificae");
+// } else {
+//   console.log("He must have to pass all the criteria");
+// }
+
+// Switch Case //
+
+let result2 = 17;
+
+switch (result2) {
+  case 18:
+    console.log("Candidate can vote");
+    break;
+  case 17:
+    console.log("Candidate is minor");
+    break;
+  default:
+    console.log("Please check the conditions");
 }
