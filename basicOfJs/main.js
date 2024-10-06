@@ -148,15 +148,31 @@ let res5 = true || false || true;
 
 // Switch Case //
 
-let result2 = 17;
+// let result2 = 17;
 
-switch (result2) {
-  case 18:
-    console.log("Candidate can vote");
-    break;
-  case 17:
-    console.log("Candidate is minor");
-    break;
-  default:
-    console.log("Please check the conditions");
+// switch (result2) {
+//   case 18:
+//     console.log("Candidate can vote");
+//     break;
+//   case 17:
+//     console.log("Candidate is minor");
+//     break;
+//   default:
+//     console.log("Please check the conditions");
+// }
+
+// Ternary Operator //
+
+// By traditional method //
+
+let numValue = 23;
+let outputValue;
+if (numValue % 2 === 0) {
+  outputValue = "Even";
+} else if (numValue % 2 === 1) {
+  outputValue = "Odd";
+} else {
+  outputValue = "Please enter valid number value";
 }
+
+console.log(outputValue);
