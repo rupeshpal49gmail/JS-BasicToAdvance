@@ -165,14 +165,18 @@ let res5 = true || false || true;
 
 // By traditional method //
 
-let numValue = 23;
+let numValue = 2;
 let outputValue;
-if (numValue % 2 === 0) {
-  outputValue = "Even";
-} else if (numValue % 2 === 1) {
-  outputValue = "Odd";
-} else {
-  outputValue = "Please enter valid number value";
-}
+// if (numValue % 2 === 0) {
+//   outputValue = "Even";
+// } else if (numValue % 2 === 1) {
+//   outputValue = "Odd";
+// } else {
+//   outputValue = "Please enter valid number value";
+// }
 
-console.log(outputValue);
+// console.log(outputValue);
+
+// By Ternary method //
+result = numValue % 2 === 0 ? "Even" : "Odd";
+console.log(result);
