@@ -203,3 +203,14 @@ for (let someNum = 0; someNum <= 6; someNum++) {
     console.log(someNum);
   }
 }
+
+// loop with continue statement  //
+
+let lessons;
+for (lessons = 1; lessons <= 5; lessons++) {
+  if (lessons == 3) {
+    continue;
+  } else {
+    console.log(lessons);
+  }
+}
