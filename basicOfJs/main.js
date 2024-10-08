@@ -181,7 +181,7 @@ let res5 = true || false || true;
 // result = numValue % 2 === 0 ? "Even" : "Odd";
 // console.log(result);
 
-// Loops & Strings
+// Loops
 
 // let evenNumber;
 // for (evenNumber = 1; evenNumber < 6; evenNumber++) {
@@ -235,3 +235,18 @@ do {
   console.log(i);
   i--;
 } while (i > 0);
+
+// Strings  //
+let firstName = "John";
+let lastName = "Doe";
+let res = firstName + " " + lastName;
+
+console.log(firstName);
+console.log(typeof firstName);
+console.log(res);
+
+// String literal
+
+let userDetails = `My name is   Rupesh Pal
+and I am from Varanasi`;
+console.log(userDetails);
