@@ -250,3 +250,5 @@ console.log(res);
 let userDetails = `My name is   Rupesh Pal
 and I am from Varanasi`;
 console.log(userDetails);
+let fullName = new String("John Doe");
+console.log(fullName);
