@@ -214,3 +214,24 @@ for (lessons = 1; lessons <= 5; lessons++) {
     console.log(lessons);
   }
 }
+
+// While and do while loop  //
+// 1. while loop //
+let index = 0;
+while (index <= 5) {
+  console.log(`Value of index is: ${index}`);
+  index = index + 2;
+}
+
+// 2. do while loop //
+let x = 1;
+do {
+  console.log("Hello World");
+  x++;
+} while (x <= 5);
+
+let i = 5;
+do {
+  console.log(i);
+  i--;
+} while (i > 0);
