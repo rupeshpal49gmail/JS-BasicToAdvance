@@ -183,12 +183,23 @@ let res5 = true || false || true;
 
 // Loops & Strings
 
-let evenNumber;
-for (evenNumber = 1; evenNumber < 6; evenNumber++) {
-  console.log(evenNumber);
-}
+// let evenNumber;
+// for (evenNumber = 1; evenNumber < 6; evenNumber++) {
+//   console.log(evenNumber);
+// }
 
 // reverse counting //
-for (evenNumber = 5; evenNumber >= 1; evenNumber--) {
-  console.log(evenNumber);
+// for (evenNumber = 5; evenNumber >= 1; evenNumber--) {
+//   console.log(evenNumber);
+// }
+
+// loop with break statement  //
+
+for (let someNum = 0; someNum <= 6; someNum++) {
+  if (someNum == 4) {
+    console.log("break statement is printed here");
+    break;
+  } else {
+    console.log(someNum);
+  }
 }
