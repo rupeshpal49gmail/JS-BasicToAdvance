@@ -245,10 +245,48 @@ console.log(firstName);
 console.log(typeof firstName);
 console.log(res);
 
+// Problems on loops  /
+// 1. sum of 1 to given numbers like(sumOfNum(3) //Output(6) 3+2+1)
+function sumOfNumbers(n) {
+  for (let numbers = 1; numbers <= n; numbers++) {
+    console.log(`Result is: ${numbers}`);
+  }
+}
+sumOfNumbers(4);
+
 // String literal
 
 let userDetails = `My name is   Rupesh Pal
 and I am from Varanasi`;
-console.log(userDetails);
+console.log(`User detail:- ${userDetails}`);
 let fullName = new String("John Doe");
 console.log(fullName);
+
+// String methods or utilities
+console.log(userDetails.toLocaleUpperCase());
+console.log(fullName.toLocaleUpperCase());
+console.log(userDetails.length);
+
+// let str = "Welcome to code space";
+// console.log(`${str.substring(2)}`);
+// console.log(`${str.substring(2, 4)}`);
+
+let newStr = "Let's write some code";
+let response = newStr.split(" ");
+console.log(response);
+
+// console.log(`${newStr.split(" ")}`);
+
+let lesson1 = "A \\Empty \\well";
+console.log(lesson1);
+
+let conclusion = lesson1.split("\\");
+console.log(conclusion);
+
+console.log(joinResult);
+
+console.log(conclusion.join(","));
+
+let ChapterOne = ["Happy", "for", "Triumph"];
+let resOfTriumph = ChapterOne.join(" - ");
+console.log(resOfTriumph);
