@@ -283,10 +283,19 @@ console.log(lesson1);
 let conclusion = lesson1.split("\\");
 console.log(conclusion);
 
-console.log(joinResult);
-
 console.log(conclusion.join(","));
 
 let ChapterOne = ["Happy", "for", "Triumph"];
 let resOfTriumph = ChapterOne.join(" - ");
 console.log(resOfTriumph);
+
+// Functions  //
+function sayHi() {
+  return "Hello John DOe";
+}
+console.log(sayHi());
+
+function greetME() {
+  console.log("Welcome Rupesh");
+}
+greetME();
