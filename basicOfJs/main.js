@@ -290,11 +290,13 @@ let resOfTriumph = ChapterOne.join(" - ");
 console.log(resOfTriumph);
 
 // Functions  //
+// 1. Function with return statement //
 function sayHi() {
   return "Hello John DOe";
 }
 console.log(sayHi());
 
+// Function without parameter  //
 function greetME() {
   console.log("Welcome Rupesh");
 }
@@ -308,3 +310,10 @@ function countingFrom1To10() {
 }
 
 countingFrom1To10();
+
+// Function with parameter
+function addValue(num1, num2) {
+  return num1 + num2;
+}
+
+console.log(`The Output is:- ${addValue(4, 8)}`);
