@@ -299,3 +299,12 @@ function greetME() {
   console.log("Welcome Rupesh");
 }
 greetME();
+
+// Counting with function  //
+function countingFrom1To10() {
+  for (let i = 1; i <= 10; i++) {
+    console.log(i);
+  }
+}
+
+countingFrom1To10();
