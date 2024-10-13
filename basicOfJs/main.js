@@ -346,5 +346,11 @@ let getMod = (number) => {
 };
 console.log(getMod(5));
 
+// Oneline arrow function without parameter
 let heyBuddy = () => 2 + 4;
 console.log(heyBuddy());
+
+// Oneline arrow function with parameter
+
+let onLinePara = (num1, num2) => num1 * num2;
+console.log(onLinePara(4, 10));
