@@ -338,3 +338,10 @@ let greetMessage = function () {
 
 let resultofGreet = greetMessage();
 console.log(resultofGreet);
+
+// Arrow function  //
+let getMod = (number) => {
+  let output = number % 3;
+  return output;
+};
+console.log(getMod(5));
