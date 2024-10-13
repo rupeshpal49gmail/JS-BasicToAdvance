@@ -345,3 +345,6 @@ let getMod = (number) => {
   return output;
 };
 console.log(getMod(5));
+
+let heyBuddy = () => 2 + 4;
+console.log(heyBuddy());
