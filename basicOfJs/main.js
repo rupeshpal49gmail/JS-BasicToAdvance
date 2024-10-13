@@ -317,3 +317,24 @@ function addValue(num1, num2) {
 }
 
 console.log(`The Output is:- ${addValue(4, 8)}`);
+
+function userName() {
+  let fulname = "John Doe";
+  let email = "ohndoe90@gmail.com";
+  let resUserName = "My Name is: " + fullName + " and my email is: " + email;
+  return resUserName;
+}
+console.log(userName());
+
+// FUnction Expression  //
+
+let greetMessage = function () {
+  let fName = "John";
+  let lName = "Doe";
+  let email = "johndoe90@test.com";
+  let results10 = `My name is ${fName} ${lName} and my email is ${email} `;
+  return results10;
+};
+
+let resultofGreet = greetMessage();
+console.log(resultofGreet);
