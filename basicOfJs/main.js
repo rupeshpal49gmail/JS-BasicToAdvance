@@ -354,3 +354,20 @@ console.log(heyBuddy());
 
 let onLinePara = (num1, num2) => num1 * num2;
 console.log(onLinePara(4, 10));
+
+// Array  //
+// 1. Creation of arrays
+const fruitsName = ["Mango", "Apple", "Banana", "Grape"];
+console.log(fruitsName);
+// array constructor
+let mixDataTypeInArray = new Array("Hey", 1, true);
+console.log(mixDataTypeInArray);
+mixDataTypeInArray.push("I am new one");
+console.log(mixDataTypeInArray);
+mixDataTypeInArray.pop();
+console.log(mixDataTypeInArray);
+console.log(`${mixDataTypeInArray} and here one array index popedup`);
+mixDataTypeInArray.shift();
+console.log(mixDataTypeInArray);
+mixDataTypeInArray.unshift("Ok, I got it");
+console.log(mixDataTypeInArray);
