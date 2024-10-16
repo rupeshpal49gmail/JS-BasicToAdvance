@@ -371,3 +371,30 @@ mixDataTypeInArray.shift();
 console.log(mixDataTypeInArray);
 mixDataTypeInArray.unshift("Ok, I got it");
 console.log(mixDataTypeInArray);
+let counts = [1, 2, 3, 4, 5];
+counts.push(6);
+console.log(counts);
+counts.push(7, 8, 9, 10);
+console.log(counts);
+// Slice  //
+let finalOutput = counts.slice(2, 3);
+console.log(finalOutput);
+
+// Splice  //
+let godsName = ["Bhibhishan", "Ram", "Hanuman", "Bali", "Neel", "Nul"];
+godsName.splice(1, 2, "Jamvant");
+console.log(godsName);
+// If want to see spliced data so we need to store spliced value in variable and then print
+let abcd = godsName.splice(1, 2, "Jamvant");
+console.log(abcd);
+
+// Creation of Object  //
+let obj = {
+  fName: "John",
+  lName: "Doe",
+  fullName: function () {
+    console.log("Hi Everyone");
+  },
+};
+console.log(obj.fName);
+obj.fullName();
