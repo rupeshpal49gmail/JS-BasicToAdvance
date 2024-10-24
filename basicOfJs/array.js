@@ -54,3 +54,12 @@ console.log(compBrand);
 const finalBrand = compBrand.flat(Infinity);
 
 console.log(finalBrand);
+
+// console.log(Array.isArray("John Doe"));
+// console.log(Array.from("John Doe"));
+console.log(Array.from({ name: "John Doe" })); // Important
+
+let marks1 = 80;
+let marks2 = 75;
+let marks3 = 90;
+console.log(Array.of(marks1, marks2, marks3));
