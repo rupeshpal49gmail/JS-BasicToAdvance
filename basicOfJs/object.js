@@ -45,17 +45,27 @@ const regularUser = {
   },
 };
 
-console.log(regularUser.email); // Regular method to call objects
+// console.log(regularUser.email); // Regular method to call objects
 
-console.log(regularUser.accountDetails.accNumber.accountNumber); // Chaining methods
+// console.log(regularUser.accountDetails.accNumber.accountNumber); // Chaining methods
 
-// *** Object concatenation *** //
+// // *** Object concatenation *** //
 
 const obj1 = { 1: "a", 2: "b" };
 const obj2 = { 3: "c", 4: "d" };
-// const obj3 = { obj1, obj2 };
+// // const obj3 = { obj1, obj2 };
+// // console.log(obj3);
+
+// const obj3 = Object.assign({}, obj1, obj2); /// For multiple assign need to take empty object{}.
+
 // console.log(obj3);
 
-const obj3 = Object.assign({}, obj1, obj2); /// For multiple assign need to take empty object{}.
+// *** Spread Operator *** //
 
+const obj3 = { ...obj1, ...obj2 };
 console.log(obj3);
+
+console.log(Object.keys(regularUser));
+console.log(Object.values(regularUser));
+console.log(Object.entries(regularUser));
+console.log(Object(regularUser.hasOwnProperty("banckAccount")));
