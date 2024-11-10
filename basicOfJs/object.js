@@ -3,9 +3,20 @@
 
 // **2. Object Literal  ** //
 
-const stdName = {
-  fName: "John",
-  lName: "Doe",
+// const stdName = {
+//   fName: "John",
+//   lName: "Doe",
+// };
+// console.log(stdName.fName);
+// console.log(stdName["lName"]);  // recomonded method  //
+
+const mySym = Symbol("key1");
+
+const heyBuddy = {
+  name: "Rupesh",
+  [mySym]: "mykey1",
+  age: 29,
+  location: "Surat",
 };
-console.log(stdName.fName);
-console.log(stdName["lName"]);
+
+console.log(heyBuddy[mySym]); // While working with symbol object need to follow given methods //
