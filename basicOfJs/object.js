@@ -28,9 +28,34 @@
 
 // lets play with constructor methods  //
 
-const instaUser = new Object((userName = "Rupesh"), (age = 29));
-console.log(instaUser);
-console.log(instaUser["userName"]);
-console.log(instaUser[userName]);
+// const instaUser = new Object((userName = "Rupesh"), (age = 29));
+// console.log(instaUser);
+// console.log(instaUser["userName"]);
+// console.log(instaUser[userName]);
 
-//
+const regularUser = {
+  email: "johndoe90@fakemail.com",
+  accountDetails: {
+    bankName: "Federal Bank",
+    branchName: "Cincinati, USA",
+    accNumber: {
+      accountNumber: 45364378213093,
+      ifscCode: "FBOO01783",
+    },
+  },
+};
+
+console.log(regularUser.email); // Regular method to call objects
+
+console.log(regularUser.accountDetails.accNumber.accountNumber); // Chaining methods
+
+// *** Object concatenation *** //
+
+const obj1 = { 1: "a", 2: "b" };
+const obj2 = { 3: "c", 4: "d" };
+// const obj3 = { obj1, obj2 };
+// console.log(obj3);
+
+const obj3 = Object.assign({}, obj1, obj2); /// For multiple assign need to take empty object{}.
+
+console.log(obj3);
