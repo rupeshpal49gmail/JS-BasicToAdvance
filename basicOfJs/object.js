@@ -20,3 +20,8 @@ const heyBuddy = {
 };
 
 console.log(heyBuddy[mySym]); // While working with symbol object need to follow given methods //
+
+heyBuddy.age = 30;
+Object.freeze(heyBuddy);
+heyBuddy.age = 40;
+console.log(heyBuddy + "I am not able to change existing data");
