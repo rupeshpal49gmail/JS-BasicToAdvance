@@ -62,10 +62,39 @@ const obj2 = { 3: "c", 4: "d" };
 
 // *** Spread Operator *** //
 
-const obj3 = { ...obj1, ...obj2 };
-console.log(obj3);
+// const obj3 = { ...obj1, ...obj2 };
+// console.log(obj3);
 
-console.log(Object.keys(regularUser));
-console.log(Object.values(regularUser));
-console.log(Object.entries(regularUser));
-console.log(Object(regularUser.hasOwnProperty("banckAccount")));
+// console.log(Object.keys(regularUser));
+// console.log(Object.values(regularUser));
+// console.log(Object.entries(regularUser));
+// console.log(Object(regularUser.hasOwnProperty("banckAccount")));
+
+// *** Object destructuring and JSON API *** //
+
+const subjects = {
+  stream: "PCM",
+  bookName: "Physics",
+  price: "490",
+  physicsTeacher: "HC Verma",
+};
+// Traditional method  //
+// console.log(subjects.stream);
+let resu = subjects.stream;
+// console.log(resu);
+
+// By Destructuring //
+const { physicsTeacher } = subjects;
+console.log(physicsTeacher);
+
+// If we want to change the variable name //
+const { bookName: book } = subjects;
+console.log(book);
+
+// Basic of API Concept // JSON //
+
+// {
+//   "name" : "John",
+//   "age": "29",
+//   "email": "johndoe@sample.com"
+// }
