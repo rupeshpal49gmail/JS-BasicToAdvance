@@ -19,17 +19,17 @@
 
 // 2. Arrow Function  //
 
-const arrFunc = function () {
-  let username = "John";
-  console.log(username);
-};
-arrFunc();
+// const arrFunc = function () {
+//   let username = "John";
+//   console.log(username);
+// };
+// arrFunc();
 
-const arrowFunction = () => {
-  let newName = "New John";
-  console.log(newName);
-};
-arrowFunction();
+// const arrowFunction = () => {
+//   let newName = "New John";
+//   console.log(newName);
+// };
+// arrowFunction();
 
 // const addTwoNum = (num1, num2) => {
 //   let output = num1 + num2;
@@ -45,5 +45,21 @@ arrowFunction();
 
 // *** Implicit Return *** //
 
-const addNumValue = (number1, number2) => number1 + number2;
-console.log(addNumValue(23, 32));
+// const addNumValue = (number1, number2) => number1 + number2;
+// console.log(addNumValue(3, 7));
+
+// *** Immediately Invoked Function Expression (IIFE)  *** //
+
+// *** Named IIFE  ***
+(function sayHi() {
+  console.log("Hello Rupesh");
+})();
+
+// *** IIFE With Arrow Function  *** //
+(greetYou = () => {
+  console.log("Hey Buddy Welcome to our dreamland");
+})();
+
+(greetYou = (username) => {
+  console.log(`Hey ${username} Welcome to our dreamland`);
+})("Rupesh Pal");

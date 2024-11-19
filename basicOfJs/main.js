@@ -398,3 +398,16 @@ let obj = {
 };
 console.log(obj.fName);
 obj.fullName();
+
+let abc = 12;
+console.log(abc * 2);
+console.log(abc == 12);
+
+function hey() {
+  console.log(hey.abcdrf);
+}
+hey();
+hey.abcdef = 100;
+hey.abcdef = 300;
+
+hey();
