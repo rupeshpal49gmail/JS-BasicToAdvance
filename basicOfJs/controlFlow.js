@@ -32,3 +32,28 @@ if (amount > 400) {
 } else {
   console.log("Value is incorrect");
 }
+
+const userEmail = "johndoe@gamil.com";
+if (userEmail) {
+  console.log("Got user email");
+} else {
+  console.log("Don't have user email");
+}
+
+// *** Truthy and Falsy value *** //
+/// 1. falsy values  ///
+/// false, 0, -0, BigInt, 0n, null, undefined, NaN ///
+
+/// 2. Truthy values  ///
+/// "0", "false", " ", [], {}, function(){},
+
+// Nullish Coalescing operator (??): null undefined
+let value1;
+value1 = 5 ?? 10;
+console.log(`1:-  ${value1}`);
+value1 = null ?? 10;
+console.log(`2:-  ${value1}`);
+value1 = undefined ?? 20;
+console.log(`3:-  ${value1}`);
+value1 = null ?? 10 ?? 20;
+console.log(`4:-  ${value1}`);
