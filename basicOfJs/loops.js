@@ -110,6 +110,15 @@ for (const fruits in fruitsName) {
 // forEach loop //
 const prLang = ["c", "c++", "js", "java"];
 
-prLang.forEach((item) => {
-  console.log(item);
+// prLang.forEach((item) => {
+//   console.log(item);
+// });
+
+// function script(i) {
+//   console.log(i);
+// }
+// prLang.forEach(script);
+
+prLang.forEach((item, index, arr) => {
+  console.log(item, index, arr);
 });
