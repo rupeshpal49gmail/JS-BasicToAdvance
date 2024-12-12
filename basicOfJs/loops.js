@@ -119,6 +119,55 @@ const prLang = ["c", "c++", "js", "java"];
 // }
 // prLang.forEach(script);
 
-prLang.forEach((item, index, arr) => {
-  console.log(item, index, arr);
+// prLang.forEach((item, index, arr) => {
+//   console.log(item, index, arr);
+// });
+
+const stdDetails = [
+  {
+    studentName: "Rupesh",
+    studentRollNumber: 121131,
+    branch: "Computer science",
+  },
+  {
+    studentName: "Shivam",
+    studentRollNumber: 121123,
+    branch: "Computer science",
+  },
+  {
+    studentName: "Rajveer",
+    studentRollNumber: 121198,
+    branch: "Computer science",
+  },
+];
+stdDetails.forEach((std) => {
+  // console.log(std.studentName);
 });
+
+// const values = stdDetails.forEach((item) => {
+//   // console.log(item);
+//   return item;
+// });
+// console.log(values);
+
+const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const res = myNums.filter((item) => item > 2);
+// const res = myNums.filter((item) => {
+//   return item > 4;
+// });
+// console.log(res);
+
+// const newNum = [];
+// myNums.forEach((item) => {
+//   if (item > 4) {
+//     newNum.push(item);
+//   }
+// });
+
+// console.log(newNum);
+
+const newNums = myNums.map((num) => {
+  return num + 10;
+});
+
+console.log(newNums);
