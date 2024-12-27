@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #2e2c2c; */
+  color: #fff;
+}
+html,
+body {
+  background-color: #2e2c2c;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #b8b1b1;
+  color: white;
+}
+.nav ul li {
+  display: inline-block;
+  padding: 5px 20px;
+  margin: 0 100px;
+  background-color: grey;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.nav ul li a {
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.nav ul li:hover {
+  background-color: #6a6969;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  /* background-color: #2e2c2c; */
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+#blue {
+  padding: 50px 50px;
+  margin: 10px;
+  background-color: #001aff;
+  color: white;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#red {
+  padding: 50px 50px;
+  margin: 10px;
+  background-color: #ff0000;
+  color: white;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#purple {
+  padding: 50px 50px;
+  margin: 10px;
+  background-color: #800080;
+  color: white;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#yellow {
+  padding: 50px 50px;
+  margin: 10px;
+  background-color: yellow;
+  color: white;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#green {
+  padding: 50px 50px;
+  margin: 10px;
+  background-color: white;
+  color: white;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 5px;
+}
