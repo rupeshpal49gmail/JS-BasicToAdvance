@@ -9,3 +9,44 @@ body {
   background-color: #323030;
   color: #fff;
 }
+
+.container {
+  height: 50vh;
+  width: 40%;
+  background-color: #625454;
+  margin: 0 auto;
+  padding: 20px;
+}
+.container h1 {
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  padding: 30px 0;
+}
+#height,
+#weight {
+  margin: 5px 0;
+  padding: 5px 0;
+  border: none;
+}
+#height,
+#weight:focus {
+  border: none;
+}
+.container button {
+  padding: 10px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 15px;
+  margin: 10px 0 0 100px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#results {
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 15px;
+  margin: 10px 0 0 100px;
+}
