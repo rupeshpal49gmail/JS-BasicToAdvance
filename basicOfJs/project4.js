@@ -1,4 +1,4 @@
-const generateandomNumber = parseInt(Math.random() * 100 + 1);
+const generateRandomNumber = parseInt(Math.random() * 100 + 1);
 
 const submit = document.querySelector("#sub");
 const userInput = document.querySelector("#guessField");
@@ -22,7 +22,20 @@ if (playGame) {
 }
 
 function validateGuess(guess) {
-  //
+  if (isNaN(guess)) {
+    alert("Please enter a valid number");
+  } else if (guess < 1) {
+    alert("PLease enter a number more than 1");
+  } else if (guess > 100) {
+    alert("Please enter a number less than 100");
+  } else {
+    prevGuess.push(guess);
+    if (numGuess === 1) {
+      displayGuess(guess);
+      displayMessage(`Game Over. Random number was ${generateRandomNumber}`);
+      endGame();
+    }
+  }
 }
 
 function checkGuess(guess) {
